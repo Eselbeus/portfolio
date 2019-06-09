@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import medium from "./images/mediumlogo.png"
+import github from "./images/githublogo.png"
+import linkedin from "./images/linkedinlogo.png"
+import twitter from "./images/twitterlogo.png"
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="pagecontainers">
+      <h1>Seann Branchfield</h1>
+      <h3>Full-Stack Web Developer</h3>
+      <a href="https://medium.com/@eselbeus"><img className="linklogos" src={medium}/></a>
+      <a href="https://github.com/Eselbeus/"><img className="linklogos" src={github}/></a>
+      <a href="https://www.linkedin.com/in/seannbranchfield/"><img className="linklogos" src={linkedin}/></a>
+      <a href="https://twitter.com/slbranchfield"><img className="linklogos" src={twitter}/></a>
     </div>
   );
 }
