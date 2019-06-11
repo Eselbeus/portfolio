@@ -86,3 +86,24 @@ nav {
   animation-duration: 1.5s;
   opacity: 0.5
 }
+
+.demopics {
+  width: 480px;
+  height: 300px;
+}
+
+.project {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #002222;
+  box-shadow: 1px 1px #002525;
+}
+
+.info {
+  background-color: #DDFFFF;
+  color: #002222;
+  border-radius: 5px;
+  font-family: 'arial'
+}

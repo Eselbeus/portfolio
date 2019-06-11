@@ -7,12 +7,14 @@ import Nav from './components/Nav'
 import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
+import Header from './components/Header'
 import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
   <Router className="background">
     <Nav />
+    <Header />
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
