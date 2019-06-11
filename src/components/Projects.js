@@ -3,13 +3,16 @@ import rockmuser from '../images/LRM_Zd.gif'
 import musi from '../images/musiscreenshot.png'
 import booktrade from '../images/booktrade.png'
 import killshemar from '../images/bEiPI-.gif'
+import ubookit from '../images/ubookit.png'
 import '../App.css'
 
 class Projects extends React.Component {
   state = {
     rockmuser: false,
     musi: false,
-    booktrade: false
+    booktrade: false,
+    killshemar: false,
+    ubookit: false
   }
 
   rockmuserSwitch = () => {
@@ -24,9 +27,17 @@ class Projects extends React.Component {
     this.setState({booktrade: !this.state.booktrade})
   }
 
+  killshemarSwitch = () => {
+    this.setState({killshemar: !this.state.killshemar})
+  }
+
+  ubookitSwitch = () => {
+    this.setState({ubookit: !this.state.ubookit})
+  }
+
   render(){
     return (
-      <section className="pagecontainers">
+      <div className="projectcontainers">
           <h1 className='pagehead'>Projects</h1>
         <div className="project">
           <div>
@@ -49,7 +60,7 @@ class Projects extends React.Component {
             <img className="demopics" src={musi} />
             <br/>
             {!this.state.musi ? <button className="info" onClick={this.musiSwitch}>More Info</button> : <p>Musi is a Ruby gem. It contains many methods designed to alter a note given in string form (i.e. "C", "D#", "Gb").
-            The methods return a new string based on the transposition of the interval that is desired. Tested with RSpec. MIT liscence. </p>}
+            The methods return a new string based on the transposition of the interval that is desired. Tested with RSpec. MIT lisence. </p>}
              <br/>
              <span><a href="https://rubygems.org/gems/musi/versions/1.0.2">Musi - Download</a>  | <a href="https://github.com/Eselbeus/musi">Rockmuser - Github</a></span>
           </div>
@@ -60,7 +71,7 @@ class Projects extends React.Component {
             <h4>2-Player Game</h4>
             <img className="demopics" src={killshemar} />
             <br/>
-            {!this.state.booktrade ? <button className="info" onClick={this.booktradeSwitch}>More Info</button> : <p>Kill Shemar is a two-player game. It was built with a Rails backend and Javascript frontend with p5.js. It uses socket.io for the
+            {!this.state.killshemar ? <button className="info" onClick={this.killshemarSwitch}>More Info</button> : <p>Kill Shemar is a two-player game. It was built with a Rails backend and Javascript frontend with p5.js. It uses socket.io for the
             multiplayer aspect. It is a cat-and-mouse style game where the Shemar player tries to evade for 60 seconds and the Ship player tries to catch Shemar with it's firepower. The Shemar player can run, jump, use the platforms and portal,
             and even become invinsible (with a time penalty) for a few seconds. The ship can fly around and fire, but must carefully the playforms. It may also deploy a space lizard (with a time penalty) which automatically tries to catch Shemar on
             it's own. The lizard goes away however if the ship hits it!</p>}
@@ -80,7 +91,19 @@ class Projects extends React.Component {
              <a href="https://github.com/Eselbeus/BookTrade-frontend">BookTrade - Github</a>
           </div>
         </div>
-      </section>
+        <div className="project">
+          <div>
+            <h2>UBookIt</h2>
+            <h4>Automated Band-Booking App</h4>
+            <img className="demopics" src={ubookit} />
+            <br/>
+            {!this.state.ubookit ? <button className="info" onClick={this.ubookitSwitch}>More Info</button> : <p>UBookIt is an automated band-booking website built with embedded Ruby. Users may sign up as either a musician or
+            a venue owner. Venue owners can create slots at venues that they need filled and artists can book them. </p>}
+             <br/>
+             <a href="https://github.com/Eselbeus/ubookit">UBookIt - Github</a>
+          </div>
+        </div>
+      </div>
     )
   }
 

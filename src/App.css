@@ -64,6 +64,15 @@ nav {
   padding: 10px;
 }
 
+.projectcontainers {
+  background-color: #002222;
+  background-image: linear-gradient(to right, #EEEEEE22, #00222233, #EEEEEE22);
+  color: #339999;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+
 .linklogos {
   height: 30px;
   width: 30px;
