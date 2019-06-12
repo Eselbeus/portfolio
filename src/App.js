@@ -9,30 +9,37 @@ import sketch from './sketches/sketch'
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="frontpage">
-      <span>
-        <div>
-          <ul>
-            <li>Ruby</li>
-            <li>Rails</li>
-            <li>SQLite3</li>
-            <li>PostgreSQL</li>
-          </ul>
-        </div>
-        <img className="sitepic" src={sitepic} />
-        <div>
-          <ul>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Redux</li>
-            <li>p5.js</li>
-          </ul>
-        </div>
-      </span>
-    </div>
-  );
+class App extends React.Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
+  render(){
+    return (
+      <div className="frontpage">
+        <span>
+          <div>
+            <ul>
+              <li>Ruby</li>
+              <li>Rails</li>
+              <li>SQLite3</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <img className="sitepic" src={sitepic} />
+          <div>
+            <ul>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Redux</li>
+              <li>p5.js</li>
+            </ul>
+          </div>
+        </span>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -15,6 +15,10 @@ class Projects extends React.Component {
     ubookit: false
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   rockmuserSwitch = () => {
     this.setState({rockmuser: !this.state.rockmuser})
   }

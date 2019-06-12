@@ -69,13 +69,10 @@ export default function sketch(p){
         p.ellipse(698, 698, 20, 20);
       }
 
-
       userX+=4
       userY+=4
       userXopp-=4
       userYopp-=4
-
-
 
       if (p.mouseIsPressed) {
         userX = p.mouseX;

@@ -8,8 +8,8 @@ class Nav extends React.Component {
       <nav>
         <React.Fragment>
           <NavLink className='navlink' to='/'>Home</NavLink>
-          <NavLink className='navlink' to='/projects'>Projects</NavLink>
           <NavLink className='navlink' to='/about'>About</NavLink>
+          <NavLink className='navlink' to='/projects'>Projects</NavLink>
           <NavLink className='navlink' to='/contact'>Contact</NavLink>
         </React.Fragment>
       </nav>
