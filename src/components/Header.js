@@ -8,7 +8,7 @@ import '../App.css';
 
 function Header() {
   return (
-    <div className="pagecontainers">
+    <div className="banner">
       <h1>Seann Branchfield</h1>
       <h3>Full-Stack Web Developer</h3>
       <a href="https://medium.com/@eselbeus"><img className="linklogos" src={medium}/></a>

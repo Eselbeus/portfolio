@@ -9,12 +9,15 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import * as serviceWorker from './serviceWorker';
+import P5Wrapper from 'react-p5-wrapper'
+import sketch from './sketches/sketch'
 
 
 ReactDOM.render(
   <Router className="background">
-    <Nav />
+    <P5Wrapper sketch={sketch} className="canvas"></P5Wrapper>
     <Header />
+    <Nav />
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
