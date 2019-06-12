@@ -43,10 +43,11 @@ class Projects extends React.Component {
     return (
       <div className="projectcontainers">
           <h1 className='pagehead'>Projects</h1>
+        <div className="projects">
         <div className="project">
           <div>
             <h2>Rockmuser</h2>
-            <h4>Social Media App for Bands/Musicians and Music Fans</h4>
+            <h4>Social Media App for Bands and Fans</h4>
             <img className="demopics" src={rockmuser} />
             <br/>
             {!this.state.rockmuser ? <button className="info" onClick={this.rockmuserSwitch}>More Info</button> : <p>Rockmuser is a social media website for musicians and music fans built with React.js and Redux using a Rails
@@ -54,7 +55,7 @@ class Projects extends React.Component {
              profile, while fan accounts can browse bands. Browsing is limited to only their own fans for bands and musicians to minimize bands spamming each other.
              Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
              <br/>
-             <span><a href="https://youtu.be/V27Ws13bHOs">Rockmuser - Full Video Demo</a> | <a href="https://github.com/Eselbeus/mod5project">Rockmuser - Github</a></span>
+             <span><a href="https://youtu.be/V27Ws13bHOs">Rockmuser - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project">Rockmuser - Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -66,7 +67,7 @@ class Projects extends React.Component {
             {!this.state.musi ? <button className="info" onClick={this.musiSwitch}>More Info</button> : <p>Musi is a Ruby gem. It contains many methods designed to alter a note given in string form (i.e. "C", "D#", "Gb").
             The methods return a new string based on the transposition of the interval that is desired. Tested with RSpec. MIT lisence. </p>}
              <br/>
-             <span><a href="https://rubygems.org/gems/musi/versions/1.0.2">Musi - Download</a>  | <a href="https://github.com/Eselbeus/musi">Rockmuser - Github</a></span>
+             <span><a href="https://rubygems.org/gems/musi/versions/1.0.2">Musi - Download</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/musi">Rockmuser - Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -105,6 +106,7 @@ class Projects extends React.Component {
             a venue owner. Venue owners can create slots at venues that they need filled and artists can book them. </p>}
              <br/>
              <a href="https://github.com/Eselbeus/ubookit">UBookIt - Github</a>
+          </div>
           </div>
         </div>
       </div>
