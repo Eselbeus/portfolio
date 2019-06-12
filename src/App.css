@@ -34,7 +34,15 @@
   to {background-color: #002222;}
 }
 
-.navlink {
+a:link {
+  color: #3399FF;
+}
+
+a:visited {
+  color: #9999FF;
+}
+
+a.navlink {
   color: #339999;
   font-size: 14pt;
   text-decoration: none;
@@ -90,7 +98,7 @@ nav {
   border-radius: 40px;
   box-shadow: 0 0 15px 0 #003333;
   position: absolute;
-  top: 240px;
+  top: 260px;
   left: 0px;
   right: 0px;
 }
@@ -104,7 +112,7 @@ nav {
   border-radius: 40px;
   box-shadow: 0 0 15px 0 #003333;
   position: absolute;
-  top: 240px;
+  top: 260px;
   left: 0px;
   right: 0px;
 
@@ -125,7 +133,7 @@ span {
   border-radius: 40px;
   box-shadow: 0 0 15px 0 #003333;
   position: absolute;
-  top: 240px;
+  top: 260px;
   left: 0px;
   right: 0px;
 }
@@ -187,4 +195,9 @@ span {
   width: 200px;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.footnote {
+  color: #002222;
+  bottom: 0px;
 }

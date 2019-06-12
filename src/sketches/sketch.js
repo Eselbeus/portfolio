@@ -69,6 +69,10 @@ export default function sketch(p){
         p.ellipse(698, 698, 20, 20);
       }
 
+      if (((x >= userX - 4 && x <= userX + 4) && (y >= userY - 4 && y <= userY + 4)) || ((x >= userX - 4 && x <= userX + 4) && (y >= userYopp - 4 && y <= userYopp + 4)) || ((x >= userXopp - 4 && x <= userXopp + 4) && (y >= userY - 4 && y <= userY + 4)) || ((x >= userXopp - 4 && x <= userXopp + 4) && (y >= userYopp + 4 && y <= userYopp - 4))){
+        p.ellipse(x, y, 200, 200)
+      }
+
       userX+=4
       userY+=4
       userXopp-=4

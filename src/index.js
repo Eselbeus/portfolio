@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import * as serviceWorker from './serviceWorker';
 import P5Wrapper from 'react-p5-wrapper'
 import sketch from './sketches/sketch'
@@ -18,6 +19,7 @@ ReactDOM.render(
     <P5Wrapper sketch={sketch} className="canvas"></P5Wrapper>
     <Header />
     <Nav />
+    <Footer className='footer'/>
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
