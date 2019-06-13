@@ -3,7 +3,7 @@ import medium from "./images/mediumlogo.png"
 import github from "./images/githublogo.png"
 import linkedin from "./images/linkedinlogo.png"
 import twitter from "./images/twitterlogo.png"
-import sitepic from "./images/sitepic.jpeg"
+import sitepic from "./images/sitepicnew.jpg"
 import P5Wrapper from 'react-p5-wrapper'
 import sketch from './sketches/sketch'
 
