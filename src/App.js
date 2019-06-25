@@ -20,6 +20,7 @@ class App extends React.Component {
       <div className="frontpage">
         <span>
           <div>
+            <h3>Back-end Skills</h3>
             <ul>
               <li>Ruby</li>
               <li>Rails</li>
@@ -29,6 +30,7 @@ class App extends React.Component {
           </div>
           <img className="sitepic" src={sitepic} />
           <div>
+            <h3>Front-end Skills</h3>
             <ul>
               <li>JavaScript</li>
               <li>React.js</li>
