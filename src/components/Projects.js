@@ -1,5 +1,6 @@
 import React from 'react'
 import rockmuser from '../images/LRM_Zd.gif'
+import eike from '../images/eike.gif'
 import musi from '../images/musiscreenshot.png'
 import booktrade from '../images/booktrade.png'
 import killshemar from '../images/bEiPI-.gif'
@@ -9,6 +10,7 @@ import '../App.css'
 class Projects extends React.Component {
   state = {
     rockmuser: false,
+    eike: false,
     musi: false,
     booktrade: false,
     killshemar: false,
@@ -21,6 +23,10 @@ class Projects extends React.Component {
 
   rockmuserSwitch = () => {
     this.setState({rockmuser: !this.state.rockmuser})
+  }
+
+  eikeSwitch = () => {
+    this.setState({eike: !this.state.eike})
   }
 
   musiSwitch = () => {
@@ -56,6 +62,18 @@ class Projects extends React.Component {
              Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
              <br/>
              <span><a href="https://youtu.be/V27Ws13bHOs">Rockmuser - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project">Rockmuser - Github</a></span>
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <h2>Backing Animation for Song</h2>
+            <h4>For usage with live performances</h4>
+            <img className="demopics" src={eike} />
+            <br/>
+            {!this.state.eike ? <button className="info" onClick={this.eikeSwitch}>More Info</button> : <p>This is animation for Everything I Know Explodes, a song by Symfinity. While not a true music video,
+            it is a video intended to be used with live performance when the band plays during times when a screen or projector is available. The animation was built with p5.js.</p>}
+             <br/>
+             <span><a href="https://youtu.be/_zwWNfqWzLc">Animation - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/eike-song-animation">Github</a></span>
           </div>
         </div>
         <div className="project">
