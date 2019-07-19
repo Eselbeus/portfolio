@@ -61,7 +61,7 @@ class Projects extends React.Component {
              profile, while fan accounts can browse bands. Browsing is limited to only their own fans for bands and musicians to minimize bands spamming each other.
              Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
              <br/>
-             <span><a href="https://youtu.be/V27Ws13bHOs">Rockmuser - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project">Rockmuser - Github</a></span>
+             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project">Rockmuser - Github</a></span>
           </div>
         </div>
         <div className="project">
