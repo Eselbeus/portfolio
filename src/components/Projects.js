@@ -99,7 +99,7 @@ class Projects extends React.Component {
             and even become invinsible (with a time penalty) for a few seconds. The ship can fly around and fire, but must carefully the playforms. It may also deploy a space lizard (with a time penalty) which automatically tries to catch Shemar on
             it's own. The lizard goes away however if the ship hits it!</p>}
              <br/>
-             <a href="https://github.com/Eselbeus/killshemar">Kill Shemar - Github</a>
+             <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns">Kill Shemar - Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar">Kill Shemar - Github</a></span>
           </div>
         </div>
         <div className="project">
