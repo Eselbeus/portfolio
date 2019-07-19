@@ -61,7 +61,7 @@ class Projects extends React.Component {
              profile, while fan accounts can browse bands. Browsing is limited to only their own fans for bands and musicians to minimize bands spamming each other.
              Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
              <br/>
-             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project">Rockmuser - Github</a></span>
+             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project" target="_parent">Rockmuser - Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -73,7 +73,7 @@ class Projects extends React.Component {
             {!this.state.eike ? <button className="info" onClick={this.eikeSwitch}>More Info</button> : <p>This is animation for Everything I Know Explodes, a song by Symfinity. While not a true music video,
             it is a video intended to be used with live performance when the band plays during times when a screen or projector is available. The animation was built with p5.js.</p>}
              <br/>
-             <span><a href="https://youtu.be/_zwWNfqWzLc">Animation - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/eike-song-animation">Github</a></span>
+             <span><a href="https://youtu.be/_zwWNfqWzLc" target="_parent">Animation - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/eike-song-animation" target="_parent">Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -85,7 +85,7 @@ class Projects extends React.Component {
             {!this.state.musi ? <button className="info" onClick={this.musiSwitch}>More Info</button> : <p>Musi is a Ruby gem. It contains many methods designed to alter a note given in string form (i.e. "C", "D#", "Gb").
             The methods return a new string based on the transposition of the interval that is desired. Tested with RSpec. MIT lisence. </p>}
              <br/>
-             <span><a href="https://rubygems.org/gems/musi/versions/1.0.2">Musi - Download</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/musi">Rockmuser - Github</a></span>
+             <span><a href="https://rubygems.org/gems/musi/versions/1.0.2" target="_parent">Musi - Download</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/musi" target="_parent">Musi - Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -99,7 +99,7 @@ class Projects extends React.Component {
             and even become invinsible (with a time penalty) for a few seconds. The ship can fly around and fire, but must carefully the playforms. It may also deploy a space lizard (with a time penalty) which automatically tries to catch Shemar on
             it's own. The lizard goes away however if the ship hits it!</p>}
              <br/>
-             <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns">Kill Shemar - Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar">Kill Shemar - Github</a></span>
+             <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns" target="_parent">Kill Shemar - Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar" target="_parent">Kill Shemar - Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -111,7 +111,7 @@ class Projects extends React.Component {
             {!this.state.booktrade ? <button className="info" onClick={this.booktradeSwitch}>More Info</button> : <p>BookTrade is an app where users can trade books they wish to donate for credits that can be exchanged
             for books from other users. It uses Google API for book data and features a React.js frontend and Rails backend. </p>}
              <br/>
-             <a href="https://github.com/Eselbeus/BookTrade-frontend">BookTrade - Github</a>
+             <a href="https://github.com/Eselbeus/BookTrade-frontend" target="_parent">BookTrade - Github</a>
           </div>
         </div>
         <div className="project">
@@ -123,7 +123,7 @@ class Projects extends React.Component {
             {!this.state.ubookit ? <button className="info" onClick={this.ubookitSwitch}>More Info</button> : <p>UBookIt is an automated band-booking website built with embedded Ruby. Users may sign up as either a musician or
             a venue owner. Venue owners can create slots at venues that they need filled and artists can book them. </p>}
              <br/>
-             <a href="https://github.com/Eselbeus/ubookit">UBookIt - Github</a>
+             <a href="https://github.com/Eselbeus/ubookit" target="_parent">UBookIt - Github</a>
           </div>
           </div>
         </div>

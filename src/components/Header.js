@@ -11,10 +11,10 @@ function Header() {
     <div className="banner">
       <h1>Seann Branchfield</h1>
       <h3>Full-Stack Web Developer</h3>
-      <a href="https://medium.com/@eselbeus"><img className="linklogos" src={medium}/></a>
-      <a href="https://github.com/Eselbeus/"><img className="linklogos" src={github}/></a>
-      <a href="https://www.linkedin.com/in/seannbranchfield/"><img className="linklogos" src={linkedin}/></a>
-      <a href="https://twitter.com/slbranchfield"><img className="linklogos" src={twitter}/></a>
+      <a href="https://medium.com/@eselbeus" target="_parent"><img className="linklogos" src={medium}/></a>
+      <a href="https://github.com/Eselbeus/" target="_parent"><img className="linklogos" src={github}/></a>
+      <a href="https://www.linkedin.com/in/seannbranchfield/" target="_parent"><img className="linklogos" src={linkedin}/></a>
+      <a href="https://twitter.com/slbranchfield" target="_parent"><img className="linklogos" src={twitter}/></a>
     </div>
   );
 }
