@@ -73,7 +73,7 @@ class Projects extends React.Component {
             {!this.state.eike ? <button className="info" onClick={this.eikeSwitch}>More Info</button> : <p>This is animation for Everything I Know Explodes, a song by Symfinity. While not a true music video,
             it is a video intended to be used with live performance when the band plays during times when a screen or projector is available. The animation was built with p5.js.</p>}
              <br/>
-             <span><a href="https://youtu.be/_zwWNfqWzLc" target="_parent">Animation - Full Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/eike-song-animation" target="_parent">Github</a></span>
+             <span><a href="https://youtu.be/_zwWNfqWzLc" target="_parent">Animation - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/eike-song-animation" target="_parent">Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -99,7 +99,7 @@ class Projects extends React.Component {
             and even become invinsible (with a time penalty) for a few seconds. The ship can fly around and fire, but must carefully the playforms. It may also deploy a space lizard (with a time penalty) which automatically tries to catch Shemar on
             it's own. The lizard goes away however if the ship hits it!</p>}
              <br/>
-             <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns" target="_parent">Kill Shemar - Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar" target="_parent">Kill Shemar - Github</a></span>
+             <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns" target="_parent">Kill Shemar - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar" target="_parent">Kill Shemar - Github</a></span>
           </div>
         </div>
         <div className="project">
