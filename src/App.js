@@ -41,6 +41,15 @@ class App extends React.Component {
             </ul>
           </div>
         </span>
+        <span>
+        <div>
+        <h3>Other Skills</h3>
+        <ul>
+          <li>Java</li>
+          <li>Java/Swing</li>
+        </ul>
+        </div>
+        </span>
       </div>
     );
   }

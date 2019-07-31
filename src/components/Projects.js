@@ -1,6 +1,7 @@
 import React from 'react'
 import rockmuser from '../images/LRM_Zd.gif'
 import eike from '../images/eike.gif'
+import dyna from '../images/dyna.gif'
 import musi from '../images/musiscreenshot.png'
 import booktrade from '../images/booktrade.png'
 import killshemar from '../images/bEiPI-.gif'
@@ -11,6 +12,7 @@ class Projects extends React.Component {
   state = {
     rockmuser: false,
     eike: false,
+    dyna: false,
     musi: false,
     booktrade: false,
     killshemar: false,
@@ -27,6 +29,10 @@ class Projects extends React.Component {
 
   eikeSwitch = () => {
     this.setState({eike: !this.state.eike})
+  }
+
+  dynaSwitch = () => {
+    this.setState({dyna: !this.state.dyna})
   }
 
   musiSwitch = () => {
@@ -67,7 +73,7 @@ class Projects extends React.Component {
         <div className="project">
           <div>
             <h2>Backing Animation for Song</h2>
-            <h4>For usage with live performances</h4>
+            <h4>For live performances (p5.js)</h4>
             <img className="demopics" src={eike} />
             <br/>
             {!this.state.eike ? <button className="info" onClick={this.eikeSwitch}>More Info</button> : <p>This is animation for Everything I Know Explodes, a song by Symfinity. While not a true music video,
@@ -100,6 +106,18 @@ class Projects extends React.Component {
             it's own. The lizard goes away however if the ship hits it!</p>}
              <br/>
              <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns" target="_parent">Kill Shemar - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar" target="_parent">Kill Shemar - Github</a></span>
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <h2>Backing Animation for Song</h2>
+            <h4>For live performances (Java/Swing)</h4>
+            <img className="demopics" src={dyna} />
+            <br/>
+            {!this.state.dyna ? <button className="info" onClick={this.dynaSwitch}>More Info</button> : <p>This is animation for Dynamite, a song by Symfinity. While not a true music video,
+            it is a video intended to be used with live performance when the band plays during times when a screen or projector is available. The animation was built with Java and Swing.</p>}
+             <br/>
+             <span><a href="https://youtu.be/XD-lH9g_xb8" target="_parent">Animation - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/dynamite-visuals" target="_parent">Github</a></span>
           </div>
         </div>
         <div className="project">
