@@ -1,6 +1,7 @@
 import React from 'react'
 import rockmuser from '../images/LRM_Zd.gif'
 import eike from '../images/eike.gif'
+import woodyandclay from '../images/woodyandclay.png'
 import dyna from '../images/dyna.gif'
 import musi from '../images/musiscreenshot.png'
 import booktrade from '../images/booktrade.png'
@@ -11,6 +12,7 @@ import '../App.css'
 class Projects extends React.Component {
   state = {
     rockmuser: false,
+    woodyandclay: false,
     eike: false,
     dyna: false,
     musi: false,
@@ -25,6 +27,10 @@ class Projects extends React.Component {
 
   rockmuserSwitch = () => {
     this.setState({rockmuser: !this.state.rockmuser})
+  }
+
+  woodyandclaySwitch = () => {
+    this.setState({woodyandclay: !this.state.woodyandclay})
   }
 
   eikeSwitch = () => {
@@ -68,6 +74,17 @@ class Projects extends React.Component {
              Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
              <br/>
              <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project" target="_parent">Rockmuser - Github</a></span>
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <h2>Adventures of Woody and Clay</h2>
+            <h4>Website for an Online Comic</h4>
+            <img className="demopics" src={woodyandclay} />
+            <br/>
+            {!this.state.woodyandclay ? <button className="info" onClick={this.woodyandclaySwitch}>More Info</button> : <p>This is a website for an old online comic strip called Adventures of Woody and Clay (possible new episodes coming). Built with HTML, SCSS and Javascript. </p>}
+             <br/>
+             <span><a href="http://woodyandclay.xyz" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/adventuresofwoodyandclay" target="_parent">Github</a></span>
           </div>
         </div>
         <div className="project">

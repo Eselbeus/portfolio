@@ -36,8 +36,9 @@ class App extends React.Component {
               <li>React.js</li>
               <li>Redux</li>
               <li>p5.js</li>
-              <li>CSS3</li>
-              <li>HTML5</li>
+              <li>CSS</li>
+              <li>SCSS</li>
+              <li>HTML</li>
             </ul>
           </div>
         </span>
