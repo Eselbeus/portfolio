@@ -6,11 +6,11 @@
   background-color: black;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -44,9 +44,9 @@ a:visited {
 
 a.navlink {
   color: #339999;
-  font-size: 14pt;
+  font-size: 1.16rem;
   text-decoration: none;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 30px;
 }
 
@@ -60,7 +60,7 @@ a.navlink {
 
 nav {
   background-color: #002222;
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
   margin-left: 0%;
   margin-right: 30%;
@@ -75,8 +75,8 @@ nav {
   background-image: radial-gradient(circle, #00222233, #EEEEEE22);
   color: #339999;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3.1rem;
+  margin-bottom: 3.1rem;
   margin-left: 30%;
   margin-right: 30%;
   padding: 10px;
