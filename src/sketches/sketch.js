@@ -12,8 +12,8 @@ export default function sketch(p){
     let userDown = true;
 
     p.setup = () => {
-      // canvas = p.createCanvas(1600, 1600);
-      canvas = p.createCanvas(p.displayWidth, p.displayHeight);
+      canvas = p.createCanvas(1600, 1600);
+      // canvas = p.createCanvas(p.displayWidth, p.displayHeight);
       p.noStroke();
     }
 
