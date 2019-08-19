@@ -6,12 +6,6 @@
   background-color: black;
 }
 
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-} */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -47,7 +41,7 @@ a.navlink {
   font-size: 1.16rem;
   text-decoration: none;
   padding: 1rem;
-  border-radius: 30px;
+  border-radius: 2.5rem;
 }
 
 .navlink:hover {
@@ -64,7 +58,7 @@ nav {
   text-align: center;
   margin-left: 0%;
   margin-right: 30%;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   position: fixed;
   top: 0px;
   z-index: 1;
@@ -79,11 +73,11 @@ nav {
   margin-bottom: 3.1rem;
   margin-left: 30%;
   margin-right: 30%;
-  padding: 10px;
-  border-radius: 40px;
-  box-shadow: 0 0 15px 0 #003333;
+  padding: 0.6rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
-  top: 20px;
+  top: 1.2rem;
   left: 0px;
   right: 0px;
 }
@@ -95,10 +89,10 @@ nav {
   text-align: center;
   margin: 50px;
   padding: 10px;
-  border-radius: 40px;
-  box-shadow: 0 0 15px 0 #003333;
+  border-radius: 3rem;
+  box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
-  top: 260px;
+  top: 16.5rem;
   left: 0px;
   right: 0px;
 }
@@ -107,12 +101,12 @@ nav {
   background-color: #002222;
   background-image: radial-gradient(circle, #00222233, #EEEEEE22);
   color: #339999;
-  margin: 50px;
-  padding: 10px;
-  border-radius: 40px;
-  box-shadow: 0 0 15px 0 #003333;
+  margin: 3rem;
+  padding: 0.6rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
-  top: 260px;
+  top: 16.5rem;
   left: 0px;
   right: 0px;
 
@@ -128,12 +122,12 @@ span {
   background-image: linear-gradient(to right, #EEEEEE22, #00252533, #EEEEEE22);
   color: #339999;
   text-align: center;
-  margin: 50px;
-  padding: 10px;
-  border-radius: 40px;
+  margin: 3rem;
+  padding: 0.6rem;
+  border-radius: 3rem;
   box-shadow: 0 0 15px 0 #003333;
   position: absolute;
-  top: 260px;
+  top: 16.5rem;
   left: 0px;
   right: 0px;
 }
