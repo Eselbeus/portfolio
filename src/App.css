@@ -87,8 +87,8 @@ nav {
   background-image: radial-gradient(circle, #00222233, #EEEEEE22);
   color: #339999;
   text-align: center;
-  margin: 50px;
-  padding: 10px;
+  margin: 4rem;
+  padding: 0.8rem;
   border-radius: 3rem;
   box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
@@ -125,7 +125,7 @@ span {
   margin: 3rem;
   padding: 0.6rem;
   border-radius: 3rem;
-  box-shadow: 0 0 15px 0 #003333;
+  box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
   top: 16.5rem;
   left: 0px;
@@ -134,16 +134,16 @@ span {
 
 .projects {
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 31rem 31rem;
   grid-auto-rows: auto;
   justify-content: center;
   grid-column-gap: 20px;
 }
 
 .linklogos {
-  height: 30px;
-  width: 30px;
-  padding: 7px;
+  height: 2rem;
+  width: 2rem;
+  padding: 0.4rem;
 }
 
 @keyframes icons {
@@ -164,18 +164,18 @@ span {
 }
 
 .demopics {
-  width: 360px;
-  height: 225px;
+  width: 23rem;
+  height: 14.375rem;
 }
 
 .project {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.43rem;
+  padding: 1.43rem;
   background-color: #000100;
-  box-shadow: 0 0 15px 0 #002525;
+  box-shadow: 0 0 1.1rem 0 #002525;
   left: 0px;
   right: 0px;
 }
@@ -183,7 +183,7 @@ span {
 .info {
   background-color: #DDFFFF;
   color: #002222;
-  border-radius: 5px;
+  border-radius: 0.4rem;
   font-family: 'arial'
 }
 
@@ -194,10 +194,10 @@ span {
 }
 
 .sitepic {
-  height: 200px;
-  width: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
+  height: 12.5rem;
+  width: 12.5rem;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
 }
 
 .footnote {
