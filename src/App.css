@@ -60,7 +60,7 @@ nav {
   margin-right: 30%;
   border-radius: 2.5rem;
   position: fixed;
-  top: 0px;
+  top: 0%;
   z-index: 1;
 }
 
@@ -78,8 +78,8 @@ nav {
   box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
   top: 1.2rem;
-  left: 0px;
-  right: 0px;
+  left: 0%;
+  right: 0%;
 }
 
 .pagecontainers {
@@ -93,9 +93,10 @@ nav {
   box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
   top: 16.5rem;
-  left: 0px;
-  right: 0px;
+  left: 0%;
+  right: 0%;
 }
+
 
 .frontpage {
   background-color: #002222;
@@ -107,9 +108,8 @@ nav {
   box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
   top: 16.5rem;
-  left: 0px;
-  right: 0px;
-
+  left: 0%;
+  right: 0%;
 }
 
 span {
@@ -128,8 +128,8 @@ span {
   box-shadow: 0 0 1.1rem 0 #003333;
   position: absolute;
   top: 16.5rem;
-  left: 0px;
-  right: 0px;
+  left: 0%;
+  right: 0%;
 }
 
 .projects {
@@ -137,7 +137,7 @@ span {
   grid-template-columns: 31rem 31rem;
   grid-auto-rows: auto;
   justify-content: center;
-  grid-column-gap: 20px;
+  grid-column-gap: 1.2rem;
 }
 
 .linklogos {
@@ -176,8 +176,8 @@ span {
   padding: 1.43rem;
   background-color: #000100;
   box-shadow: 0 0 1.1rem 0 #002525;
-  left: 0px;
-  right: 0px;
+  left: 0%;
+  right: 0%;
 }
 
 .info {
@@ -189,7 +189,7 @@ span {
 
 .canvas {
   position: fixed;
-  top: 0px;
+  top: 0%;
   z-index: -1;
 }
 
@@ -202,5 +202,5 @@ span {
 
 .footnote {
   color: #002222;
-  bottom: 0px;
+  bottom: 0%;
 }
