@@ -82,7 +82,7 @@ nav {
   right: 0%;
 }
 
-@media screen and (max-width: 640px) and (min-resolution: 120dpi){
+@media screen and (-webkit-min-device-pixel-ratio: 3) and (max-width: 640px) and (min-resolution: 120dpi){
   .banner{
     margin-left: 10%;
     margin-right: 10%;
@@ -149,7 +149,7 @@ span {
   }
 }
 
-@media screen and (max-width: 640px) and (min-resolution: 120dpi){
+@media screen and (-webkit-min-device-pixel-ratio: 3) and (max-width: 640px) and (min-resolution: 120dpi){
   #root {
     display: block;
     align-items: center;
@@ -306,7 +306,7 @@ span {
   right: 0%;
 }
 
-@media screen and (max-width: 640px) and (min-resolution: 120dpi){
+@media screen and (-webkit-min-device-pixel-ratio: 3) and (max-width: 640px) and (min-resolution: 120dpi){
   .project {
     align-items: center;
     padding: 1.43rem;
