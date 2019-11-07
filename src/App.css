@@ -82,7 +82,7 @@ nav {
   right: 0%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 640px){
   .banner{
     margin-left: 10%;
     margin-right: 10%;
@@ -149,7 +149,7 @@ span {
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 640px){
   #root {
     display: block;
     align-items: center;
@@ -306,7 +306,7 @@ span {
   right: 0%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 640px){
   .project {
     align-items: center;
     padding: 1.43rem;
