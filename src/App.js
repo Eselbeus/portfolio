@@ -19,7 +19,10 @@ class App extends React.Component {
     return (
       <div className="frontpage">
         <span>
-          <div>
+          <img className="sitepic" src={sitepic} />
+        </span>
+        <span className="skills">
+          <div className="backend-skills all-skills">
             <h3>Back-end Skills</h3>
             <ul>
               <li>Ruby</li>
@@ -28,8 +31,7 @@ class App extends React.Component {
               <li>PostgreSQL</li>
             </ul>
           </div>
-          <img className="sitepic" src={sitepic} />
-          <div>
+          <div className="frontend-skills all-skills">
             <h3>Front-end Skills</h3>
             <ul>
               <li>JavaScript</li>
@@ -41,15 +43,13 @@ class App extends React.Component {
               <li>HTML</li>
             </ul>
           </div>
-        </span>
-        <span>
-        <div>
-        <h3>Other Skills</h3>
-        <ul>
-          <li>Java</li>
-          <li>Java/Swing</li>
-        </ul>
-        </div>
+          <div className="other-skills all-skills">
+          <h3>Other Skills</h3>
+          <ul>
+            <li>Java</li>
+            <li>Java/Swing</li>
+          </ul>
+          </div>
         </span>
       </div>
     );
