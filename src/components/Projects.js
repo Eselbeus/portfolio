@@ -63,7 +63,7 @@ class Projects extends React.Component {
           <h1 className='pagehead'>Projects</h1>
         <div className="projects">
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>Rockmuser</h2>
             <h4>Social Media App for Bands and Fans</h4>
             <img className="demopics" src={rockmuser} />
@@ -77,7 +77,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>Adventures of Woody and Clay</h2>
             <h4>Website for an Online Comic</h4>
             <img className="demopics" src={woodyandclay} />
@@ -88,7 +88,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>Backing Animation for Song</h2>
             <h4>For live performances (p5.js)</h4>
             <img className="demopics" src={eike} />
@@ -100,7 +100,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>Musi</h2>
             <h4>Ruby Gem Using Music Theory</h4>
             <img className="demopics" src={musi} />
@@ -112,7 +112,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>Kill Shemar</h2>
             <h4>2-Player Game</h4>
             <img className="demopics" src={killshemar} />
@@ -126,7 +126,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>Backing Animation for Song</h2>
             <h4>For live performances (Java/Swing)</h4>
             <img className="demopics" src={dyna} />
@@ -138,7 +138,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>BookTrade</h2>
             <h4>Book Exchange App</h4>
             <img className="demopics" src={booktrade} />
@@ -150,7 +150,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project">
-          <div>
+          <div className="project-details">
             <h2>UBookIt</h2>
             <h4>Automated Band-Booking App</h4>
             <img className="demopics" src={ubookit} />

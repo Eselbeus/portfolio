@@ -82,8 +82,15 @@ nav {
   right: 0%;
 }
 
+@media screen and (max-width: 480px){
+  .banner{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 .pagecontainers {
-  background-color: #002222;
+  background-color: #002222BB;
   background-image: radial-gradient(circle, #00222233, #EEEEEE22);
   color: #339999;
   text-align: center;
@@ -97,9 +104,23 @@ nav {
   right: 0%;
 }
 
+.skills {
+  display: flex;
+  flex-flow: justify;
+}
+
+.all-skills {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 2rem;
+  border-radius: 12rem;
+  border: 4px solid #33999922;
+  box-shadow: 0 0 1.1rem 0 #003333;
+}
+
 
 .frontpage {
-  background-color: #002222;
+  background-color: #002222BB;
   background-image: radial-gradient(circle, #00222233, #EEEEEE22);
   color: #339999;
   margin: 3rem;
@@ -117,8 +138,90 @@ span {
   justify-content: center;
 }
 
+@media screen and (max-width: 768px){
+  .all-skills {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 2rem;
+    border-radius: 12rem;
+    border: 4px solid #33999922;
+    box-shadow: 0 0 1.1rem 0 #003333;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #root {
+    display: block;
+    align-items: center;
+  }
+
+  nav {
+    width: 90%;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a.navlink {
+    font-size: 1.16rem;
+  }
+
+  .banner {
+    top: 2.5rem;
+    display: block;
+    align-items: center;
+  }
+
+  .frontpage{
+    top: 22rem;
+  }
+
+  .pagecontainers {
+    top: 22rem;
+  }
+
+  .skills {
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .sitepic {
+    height: 12.5rem;
+    width: 12.5rem;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    z-index: 1;
+  }
+
+  .all-skills {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin: 0;
+    border-radius: 12rem;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 360px){
+  a.navlink {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px){
+  a.navlink {
+    font-size: 0.82rem;
+  }
+}
+
 .projectcontainers {
-  background-color: #002222;
+  background-color: #002222BB;
   background-image: linear-gradient(to right, #EEEEEE22, #00252533, #EEEEEE22);
   color: #339999;
   text-align: center;
@@ -144,6 +247,29 @@ span {
   height: 2rem;
   width: 2rem;
   padding: 0.4rem;
+}
+
+.demopics {
+  width: 23rem;
+  height: 14.375rem;
+}
+
+@media screen and (max-width: 768px){
+  .projectcontainers {
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 22rem;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  .demopics {
+    max-width: 11.5rem;
+    max-height: 7.1875rem;
+  }
 }
 
 @keyframes icons {
@@ -178,6 +304,15 @@ span {
   box-shadow: 0 0 1.1rem 0 #002525;
   left: 0%;
   right: 0%;
+}
+
+@media screen and (max-width: 480px){
+  .project {
+    align-items: center;
+    padding: 1.43rem;
+    background-color: #000100;
+    box-shadow: 0 0 1.1rem 0 #002525;
+  }
 }
 
 .info {
