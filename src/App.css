@@ -82,7 +82,7 @@ nav {
   right: 0%;
 }
 
-@media (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
+@media (max-width: 640px) and (min-resolution: 120dpi){
   .banner{
     margin-left: 10%;
     margin-right: 10%;
@@ -149,7 +149,7 @@ span {
   }
 }
 
-@media (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
+@media (max-width: 640px) and (min-resolution: 120dpi){
   #root {
     display: block;
     align-items: center;
@@ -188,8 +188,8 @@ span {
   }
 
   .sitepic {
-    height: 12.5rem;
-    width: 12.5rem;
+    height: auto;
+    width: auto;
     padding-left: auto;
     padding-right: auto;
     padding-top: 5%;
@@ -306,7 +306,7 @@ span {
   right: 0%;
 }
 
-@media (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
+@media (max-width: 640px) and (min-resolution: 120dpi){
   .project {
     align-items: center;
     padding: 1.43rem;
