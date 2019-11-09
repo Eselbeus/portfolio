@@ -82,7 +82,7 @@ nav {
   right: 0%;
 }
 
-@media screen and (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
+@media (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
   .banner{
     margin-left: 10%;
     margin-right: 10%;
@@ -138,7 +138,7 @@ span {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
   .all-skills {
     padding-left: 3%;
     padding-right: 3%;
@@ -149,7 +149,7 @@ span {
   }
 }
 
-@media screen and (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
+@media (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
   #root {
     display: block;
     align-items: center;
@@ -208,13 +208,13 @@ span {
   }
 }
 
-@media screen and (max-width: 360px){
+@media (max-width: 360px){
   a.navlink {
     font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 320px){
+@media (max-width: 320px){
   a.navlink {
     font-size: 0.82rem;
   }
@@ -254,7 +254,7 @@ span {
   height: 14.375rem;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
   .projectcontainers {
     display: block;
     margin: 0;
@@ -306,7 +306,7 @@ span {
   right: 0%;
 }
 
-@media screen and (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
+@media (max-width: 640px) and (min-resolution: 120dpi) and (-webkit-device-pixel-ratio: 3){
   .project {
     align-items: center;
     padding: 1.43rem;
