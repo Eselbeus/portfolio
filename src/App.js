@@ -18,7 +18,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="frontpage">
-        <span>
+        <span className="pic-container">
           <img className="sitepic" src={sitepic} />
         </span>
         <span className="skills">
@@ -46,6 +46,9 @@ class App extends React.Component {
           <div className="other-skills all-skills">
           <h3>Other Skills</h3>
           <ul>
+            <li>Git</li>
+            <li>Bash</li>
+            <li>Jira</li>
             <li>Java</li>
             <li>Java/Swing</li>
           </ul>

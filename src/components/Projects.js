@@ -7,6 +7,8 @@ import musi from '../images/musiscreenshot.png'
 import booktrade from '../images/booktrade.png'
 import killshemar from '../images/bEiPI-.gif'
 import ubookit from '../images/ubookit.png'
+import symfinity from '../images/symfinitydotcom.png'
+import apromotions from '../images/apromotions.png'
 import '../App.css'
 
 class Projects extends React.Component {
@@ -18,7 +20,9 @@ class Projects extends React.Component {
     musi: false,
     booktrade: false,
     killshemar: false,
-    ubookit: false
+    ubookit: false,
+    symfinity: false,
+    apromotions: false
   }
 
   componentDidMount() {
@@ -27,6 +31,10 @@ class Projects extends React.Component {
 
   rockmuserSwitch = () => {
     this.setState({rockmuser: !this.state.rockmuser})
+  }
+
+  symfinitySwitch = () => {
+    this.setState({symfinity: !this.state.symfinity})
   }
 
   woodyandclaySwitch = () => {
@@ -53,6 +61,10 @@ class Projects extends React.Component {
     this.setState({killshemar: !this.state.killshemar})
   }
 
+  aPromotions = () => {
+    this.setState({apromotions: !this.state.apromotions})
+  }
+
   ubookitSwitch = () => {
     this.setState({ubookit: !this.state.ubookit})
   }
@@ -73,7 +85,18 @@ class Projects extends React.Component {
              profile, while fan accounts can browse bands. Browsing is limited to only their own fans for bands and musicians to minimize bands spamming each other.
              Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
              <br/>
-             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/mod5project" target="_parent">Rockmuser - Github</a></span>
+             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/symfinity-website-frontend" target="_parent">Rockmuser - Github</a></span>
+          </div>
+        </div>
+        <div className="project">
+          <div className="project-details">
+            <h2>Symfinity.com</h2>
+            <h4>Band Website</h4>
+            <img className="demopics" src={symfinity} />
+            <br/>
+            {!this.state.symfinity ? <button className="info" onClick={this.symfinitySwitch}>More Info</button> : <p>Symfinity.com is built with React. It is a band website designed to be mobile-friendly with heavy usage of media queries for different devices.</p>}
+             <br/>
+             <span><a href="http://symfinity.com" target="_parent">Symfinity - Official Site</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/symfinity-website-frontend" target="_parent">Symfinity - Github</a></span>
           </div>
         </div>
         <div className="project">
@@ -147,6 +170,17 @@ class Projects extends React.Component {
             for books from other users. It uses Google API for book data and features a React.js frontend and Rails backend. </p>}
              <br/>
              <a href="https://github.com/Eselbeus/BookTrade-frontend" target="_parent">BookTrade - Github</a>
+          </div>
+        </div>
+        <div className="project">
+          <div className="project-details">
+            <h2>Alissa Aikio Promotions</h2>
+            <h4>Booking Agent Website</h4>
+            <img className="demopics" src={apromotions} />
+            <br/>
+            {!this.state.apromotions ? <button className="info" onClick={this.aPromotions}>More Info</button> : <p>This is my first website built with Vue. It is a basic site that uses VueRouter. Deployed to Netlify.</p>}
+             <br/>
+             <span><a href="https://cranky-poitras-1c1d5a.netlify.com/" target="_parent">Live Site</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/a-promotions" target="_parent">Github</a></span>
           </div>
         </div>
         <div className="project">
