@@ -46,6 +46,9 @@ class App extends React.Component {
           <div className="other-skills all-skills">
           <h3>Other Skills</h3>
           <ul>
+            <li>Git</li>
+            <li>Bash</li>
+            <li>Jira</li>
             <li>Java</li>
             <li>Java/Swing</li>
           </ul>
