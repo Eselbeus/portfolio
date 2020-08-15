@@ -29,6 +29,8 @@ class App extends React.Component {
               <li>Rails</li>
               <li>SQLite3</li>
               <li>PostgreSQL</li>
+              <li>Python</li>
+              <li>Flask</li>
             </ul>
           </div>
           <div className="frontend-skills all-skills">
@@ -49,8 +51,10 @@ class App extends React.Component {
             <li>Git</li>
             <li>Bash</li>
             <li>Jira</li>
-            <li>Java</li>
             <li>Java/Swing</li>
+            <li>Pro Tools</li>
+            <li>Adobe Premiere</li>
+            <li>Shopify</li>
           </ul>
           </div>
         </span>
