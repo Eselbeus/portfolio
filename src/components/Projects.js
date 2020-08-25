@@ -9,6 +9,8 @@ import killshemar from '../images/bEiPI-.gif'
 import ubookit from '../images/ubookit.png'
 import symfinity from '../images/symfinitydotcom.png'
 import apromotions from '../images/apromotions.png'
+import newmuse from '../images/newmuse.png'
+import topent from '../images/topent.png'
 import '../App.css'
 
 class Projects extends React.Component {
@@ -22,7 +24,9 @@ class Projects extends React.Component {
     killshemar: false,
     ubookit: false,
     symfinity: false,
-    apromotions: false
+    apromotions: false,
+    newmusestudio: false,
+    topentertainment: false
   }
 
   componentDidMount() {
@@ -69,11 +73,21 @@ class Projects extends React.Component {
     this.setState({ubookit: !this.state.ubookit})
   }
 
+  newmuseSwitch = () => {
+    this.setState({newmusestudio: !this.state.newmusestudio})
+  }
+
+  topentertainmentSwitch = () => {
+    this.setState({topentertainment: !this.state.topentertainment})
+  }
+
   render(){
     return (
       <div className="projectcontainers">
           <h1 className='pagehead'>Projects</h1>
+          <p>Projects include deployed websites: Built with React, Vue, HTML/Vanilla JS, and Python/Flask backend. Also included are deployed Ruby Gem, Animations built with p5.js and Java/Swing, and Rails/React demos.</p>
         <div className="projects">
+
         <div className="project">
           <div className="project-details">
             <h2>Rockmuser</h2>
@@ -88,10 +102,11 @@ class Projects extends React.Component {
              <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/symfinity-website-frontend" target="_parent">Rockmuser - Github</a></span>
           </div>
         </div>
+
         <div className="project">
           <div className="project-details">
             <h2>Symfinity.com</h2>
-            <h4>Band Website</h4>
+            <h4>Band Website - Built with React</h4>
             <img className="demopics" src={symfinity} />
             <br/>
             {!this.state.symfinity ? <button className="info" onClick={this.symfinitySwitch}>More Info</button> : <p>Symfinity.com is built with React. It is a band website designed to be mobile-friendly with heavy usage of media queries for different devices.</p>}
@@ -99,17 +114,31 @@ class Projects extends React.Component {
              <span><a href="http://symfinity.com" target="_parent">Symfinity - Official Site</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/symfinity-website-frontend" target="_parent">Symfinity - Github</a></span>
           </div>
         </div>
+
         <div className="project">
           <div className="project-details">
-            <h2>Adventures of Woody and Clay</h2>
-            <h4>Website for an Online Comic</h4>
-            <img className="demopics" src={woodyandclay} />
+            <h2>Newmusestudios.com</h2>
+            <h4>Python/Flask Backend</h4>
+            <img className="demopics" src={newmuse} />
             <br/>
-            {!this.state.woodyandclay ? <button className="info" onClick={this.woodyandclaySwitch}>More Info</button> : <p>This is a website for an old online comic strip called Adventures of Woody and Clay (possible new episodes coming). Built with HTML, SCSS and Javascript. </p>}
+            {!this.state.newmusestudio ? <button className="info" onClick={this.newmuseSwitch}>More Info</button> : <p>Newmusestudios.com is a website for a recording studio. It uses a React frontend and Python/Flask backend. The backend handles the contact form and sents an email with "smtplib" to the studio manager whenever anyone fills it out. API hosted through Heroku and frontend through Netlify.</p>}
              <br/>
-             <span><a href="http://woodyandclay.xyz" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/adventuresofwoodyandclay" target="_parent">Github</a></span>
+             <span><a href="http://newmusestudios.com" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/newmusestudio" target="_parent">Github - Frontend</a></span>
           </div>
         </div>
+
+        <div className="project">
+          <div className="project-details">
+            <h2>TOPentertainment.rocks</h2>
+            <h4>React Frontend</h4>
+            <img className="demopics" src={topent} />
+            <br/>
+            {!this.state.topentertainment ? <button className="info" onClick={this.topentertainmentSwitch}>More Info</button> : <p>TOPentertainment is a music industry site for mentoring bands. Built with React, it features an extensive subnavigation menu.</p>}
+             <br/>
+             <span><a href="https://topentertainment.rocks/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/topent" target="_parent">Github - Frontend</a></span>
+          </div>
+        </div>
+
         <div className="project">
           <div className="project-details">
             <h2>Backing Animation for Song</h2>
@@ -122,6 +151,19 @@ class Projects extends React.Component {
              <span><a href="https://youtu.be/_zwWNfqWzLc" target="_parent">Animation - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/eike-song-animation" target="_parent">Github</a></span>
           </div>
         </div>
+
+        <div className="project">
+          <div className="project-details">
+            <h2>Adventures of Woody and Clay</h2>
+            <h4>Website for an Online Comic</h4>
+            <img className="demopics" src={woodyandclay} />
+            <br/>
+            {!this.state.woodyandclay ? <button className="info" onClick={this.woodyandclaySwitch}>More Info</button> : <p>This is a website for an old online comic strip called Adventures of Woody and Clay (possible new episodes coming). Built with HTML, SCSS and Javascript. </p>}
+             <br/>
+             <span><a href="http://woodyandclay.xyz" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/adventuresofwoodyandclay" target="_parent">Github</a></span>
+          </div>
+        </div>
+
         <div className="project">
           <div className="project-details">
             <h2>Musi</h2>
@@ -134,6 +176,7 @@ class Projects extends React.Component {
              <span><a href="https://rubygems.org/gems/musi/versions/1.0.2" target="_parent">Musi - Download</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/musi" target="_parent">Musi - Github</a></span>
           </div>
         </div>
+
         <div className="project">
           <div className="project-details">
             <h2>Kill Shemar</h2>
@@ -148,6 +191,7 @@ class Projects extends React.Component {
              <span><a href="https://www.youtube.com/watch?v=ZSUhZpJ4Xns" target="_parent">Kill Shemar - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/killshemar" target="_parent">Kill Shemar - Github</a></span>
           </div>
         </div>
+
         <div className="project">
           <div className="project-details">
             <h2>Backing Animation for Song</h2>
@@ -160,6 +204,19 @@ class Projects extends React.Component {
              <span><a href="https://youtu.be/XD-lH9g_xb8" target="_parent">Animation - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/dynamite-visuals" target="_parent">Github</a></span>
           </div>
         </div>
+
+        <div className="project">
+          <div className="project-details">
+            <h2>Alissa Aikio Promotions</h2>
+            <h4>Booking Agent Website</h4>
+            <img className="demopics" src={apromotions} />
+            <br/>
+            {!this.state.apromotions ? <button className="info" onClick={this.aPromotions}>More Info</button> : <p>This is my first website built with Vue. It is a basic site that uses VueRouter. Deployed to Netlify.</p>}
+             <br/>
+             <span><a href="https://cranky-poitras-1c1d5a.netlify.com/" target="_parent">Live Site</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/a-promotions" target="_parent">Github</a></span>
+          </div>
+        </div>
+
         <div className="project">
           <div className="project-details">
             <h2>BookTrade</h2>
@@ -172,17 +229,7 @@ class Projects extends React.Component {
              <a href="https://github.com/Eselbeus/BookTrade-frontend" target="_parent">BookTrade - Github</a>
           </div>
         </div>
-        <div className="project">
-          <div className="project-details">
-            <h2>Alissa Aikio Promotions</h2>
-            <h4>Booking Agent Website</h4>
-            <img className="demopics" src={apromotions} />
-            <br/>
-            {!this.state.apromotions ? <button className="info" onClick={this.aPromotions}>More Info</button> : <p>This is my first website built with Vue. It is a basic site that uses VueRouter. Deployed to Netlify.</p>}
-             <br/>
-             <span><a href="https://cranky-poitras-1c1d5a.netlify.com/" target="_parent">Live Site</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/a-promotions" target="_parent">Github</a></span>
-          </div>
-        </div>
+
         <div className="project">
           <div className="project-details">
             <h2>UBookIt</h2>
