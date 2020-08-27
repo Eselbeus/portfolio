@@ -348,3 +348,17 @@ span {
   color: #002222;
   bottom: 0%;
 }
+
+.contact-form {
+  display: block;
+}
+
+.contact-items {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.message-input {
+  height: 5rem;
+  rows:"5";
+}

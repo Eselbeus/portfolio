@@ -19,11 +19,11 @@ ReactDOM.render(
     <P5Wrapper sketch={sketch} className="canvas"></P5Wrapper>
     <Header />
     <Nav />
-    <Footer className='footer'/>
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
     <Route exact path="/" component={App} />
+    <Footer className='footer'/>
   </Router>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
