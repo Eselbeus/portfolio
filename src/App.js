@@ -31,6 +31,7 @@ class App extends React.Component {
               <li>PostgreSQL</li>
               <li>Python</li>
               <li>Flask</li>
+              <li>Numpy/Pandas</li>
             </ul>
           </div>
           <div className="frontend-skills all-skills">
@@ -55,6 +56,7 @@ class App extends React.Component {
             <li>Pro Tools</li>
             <li>Adobe Premiere</li>
             <li>Shopify</li>
+            <li>Jupyter Notebook</li>
           </ul>
           </div>
         </span>
