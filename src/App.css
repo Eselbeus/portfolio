@@ -362,3 +362,7 @@ span {
   height: 5rem;
   rows:"5";
 }
+
+.disclaimer {
+  font-size: 6px;
+}
