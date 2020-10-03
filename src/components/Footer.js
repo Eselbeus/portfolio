@@ -12,7 +12,7 @@ class Footer extends React.Component {
   render(){
     return(
       <div className="footnote">
-        <p onClick={this.revealer}>Built by Seann Branchfield using React.js and p5.js. Back end with Python/Flask. 2019-2020</p>
+        <p onClick={this.revealer}>''</p>
         {this.state.reveal ? <p>PS some of the missles collide and make bigger explosions if you click in the right spots...</p> : ''}
       </div>
     )
