@@ -56,7 +56,7 @@ class Contact extends React.Component {
           }
           </div>
         <h3>LinkedIn: <a href="https://www.linkedin.com/in/seannbranchfield/" target="_parent">in/seannbranchfield</a></h3>
-        <h3>Blog: <a href="https://medium.com/@eselbeus" target="_parent">@eselbeus</a></h3>
+        <h3>Blog: <a href="https://seannbranchfield.medium.com/" target="_parent">@eselbeus</a></h3>
         <h3>Email: <a href="mailto:eselbeus@gmail.com" target="_parent">eselbeus@gmail.com</a></h3>
       </div>
     )
