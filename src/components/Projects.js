@@ -11,6 +11,7 @@ import symfinity from '../images/symfinitydotcom.png'
 import apromotions from '../images/apromotions.png'
 import newmuse from '../images/newmuse.png'
 import topent from '../images/topent.png'
+import plucky from '../images/plucky.png'
 import '../App.css'
 
 class Projects extends React.Component {
@@ -26,7 +27,8 @@ class Projects extends React.Component {
     symfinity: false,
     apromotions: false,
     newmusestudio: false,
-    topentertainment: false
+    topentertainment: false,
+    plucky: false
   }
 
   componentDidMount() {
@@ -79,6 +81,10 @@ class Projects extends React.Component {
 
   topentertainmentSwitch = () => {
     this.setState({topentertainment: !this.state.topentertainment})
+  }
+
+  pluckySwitch = () => {
+    this.setState({plucky: !this.state.plucky})
   }
 
   render(){
@@ -136,6 +142,18 @@ class Projects extends React.Component {
             {!this.state.topentertainment ? <button className="info" onClick={this.topentertainmentSwitch}>More Info</button> : <p>TOPentertainment is a music industry site for mentoring bands. Built with React, it features an extensive subnavigation menu.</p>}
              <br/>
              <span><a href="https://topentertainment.rocks/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/topent" target="_parent">Github - Frontend</a></span>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="project-details">
+            <h2>PLuckyofficial.com</h2>
+            <h4>React Frontend</h4>
+            <img className="demopics" src={plucky} />
+            <br/>
+            {!this.state.plucky ? <button className="info" onClick={this.pluckySwitch}>More Info</button> : <p>P.Lucky is a musical artist. Built with React, it is a simple artist website.</p>}
+             <br/>
+             <span><a href="https://pluckyofficial.com/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/plucky" target="_parent">Github</a></span>
           </div>
         </div>
 
@@ -208,7 +226,7 @@ class Projects extends React.Component {
         <div className="project">
           <div className="project-details">
             <h2>Alissa Aikio Promotions</h2>
-            <h4>Booking Agent Website</h4>
+            <h4>Vue Frontend</h4>
             <img className="demopics" src={apromotions} />
             <br/>
             {!this.state.apromotions ? <button className="info" onClick={this.aPromotions}>More Info</button> : <p>This is my first website built with Vue. It is a basic site that uses VueRouter. Deployed to Netlify.</p>}
