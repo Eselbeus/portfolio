@@ -41,6 +41,7 @@ class App extends React.Component {
               <li>React.js</li>
               <li>Redux</li>
               <li>p5.js</li>
+              <li>ERB/Haml</li>
               <li>CSS</li>
               <li>SCSS</li>
               <li>HTML</li>
@@ -50,8 +51,8 @@ class App extends React.Component {
           <h3>Other Skills</h3>
           <ul>
             <li>Git</li>
-            <li>Bash</li>
-            <li>Jira</li>
+            <li>Bash/Zsh</li>
+            <li>Jira/Bitbucket/Github</li>
             <li>Java/Swing</li>
             <li>Pro Tools</li>
             <li>Adobe Premiere</li>
