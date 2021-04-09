@@ -42,8 +42,7 @@ class App extends React.Component {
               <li>Redux</li>
               <li>p5.js</li>
               <li>ERB/Haml</li>
-              <li>CSS</li>
-              <li>SCSS</li>
+              <li>CSS/SCSS</li>
               <li>HTML</li>
             </ul>
           </div>
@@ -52,10 +51,10 @@ class App extends React.Component {
           <ul>
             <li>Git</li>
             <li>Bash/Zsh</li>
-            <li>Jira/Bitbucket/Github</li>
+            <li>Jira/Bitbucket</li>
             <li>Java/Swing</li>
-            <li>Pro Tools</li>
-            <li>Adobe Premiere</li>
+            <li>CI/CD</li>
+            <li>Github</li>
             <li>Shopify</li>
             <li>Jupyter Notebook</li>
           </ul>

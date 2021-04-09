@@ -2,9 +2,9 @@
   "name": "devportfolio",
   "version": "0.1.0",
   "private": true,
-  "engines":{
-    "node":"11.8.0",
-    "npm":"6.5.0"
+  "engines": {
+    "node": "11.8.0",
+    "npm": "6.5.0"
   },
   "dependencies": {
     "p5": "^0.8.0",

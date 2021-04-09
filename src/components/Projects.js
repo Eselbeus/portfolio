@@ -12,6 +12,7 @@ import apromotions from '../images/apromotions.png'
 import newmuse from '../images/newmuse.png'
 import topent from '../images/topent.png'
 import plucky from '../images/plucky.png'
+import echomusings from '../images/Echomusings.png'
 import '../App.css'
 
 class Projects extends React.Component {
@@ -28,7 +29,8 @@ class Projects extends React.Component {
     apromotions: false,
     newmusestudio: false,
     topentertainment: false,
-    plucky: false
+    plucky: false,
+    echomusings: false
   }
 
   componentDidMount() {
@@ -87,25 +89,29 @@ class Projects extends React.Component {
     this.setState({plucky: !this.state.plucky})
   }
 
+  echoMusingsSwitch = () => {
+    this.setState({echomusings: !this.state.echomusings})
+  }
+
   render(){
     return (
       <div className="projectcontainers">
           <h1 className='pagehead'>Projects</h1>
-          <p>Projects include deployed websites: Built with React, Vue, HTML/Vanilla JS, and Python/Flask backend. Also included are deployed Ruby Gem, Animations built with p5.js and Java/Swing, and Rails/React demos.</p>
+          <p className="projects-info">Projects include deployed websites: Built with React/Redux, Ruby on Rails, Vue, HTML/Vanilla JS, and Python/Flask backend. Usage of CI/CD piplines with Echo Musings. Also included are deployed Ruby Gem, Animations built with p5.js and Java/Swing, and other React/Rails demos.</p>
         <div className="projects">
 
         <div className="project">
           <div className="project-details">
-            <h2>Rockmuser</h2>
-            <h4>Social Media App for Bands and Fans</h4>
-            <img className="demopics" src={rockmuser} />
+            <h2>EchoMusings.com</h2>
+            <h4>Music News and Podcast</h4>
+            <img className="demopics" src={echomusings} />
             <br/>
-            {!this.state.rockmuser ? <button className="info" onClick={this.rockmuserSwitch}>More Info</button> : <p>Rockmuser is a social media website for musicians and music fans built with React.js and Redux using a Rails
-             API. It features two different types of user accounts: One for bands/musicians and one for fans. Musician accounts can embed music videos on their
-             profile, while fan accounts can browse bands. Browsing is limited to only their own fans for bands and musicians to minimize bands spamming each other.
-             Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
+            {!this.state.echomusings ? <button className="info" onClick={this.echoMusingsSwitch}>More Info</button> : <p>Echo Musings is a music news and podcast site built with React and Redux using a Ruby on Rails
+             API. It features both news articles and podcasts which site admins can upload by logging in with JWT authentication. It is styled with SCSS and is mobile friendly. The frontend is deployed to Netlify
+             and the backend is deployed to Heroku. Usage of CI/CD is made with Heroku and Netlify's pipeline features.
+             </p>}
              <br/>
-             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/symfinity-website-frontend" target="_parent">Rockmuser - Github</a></span>
+             <span><a href="https://echomusings.com" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/echomusings" target="_parent">EchoMusings - Github</a></span>
           </div>
         </div>
 
@@ -141,7 +147,7 @@ class Projects extends React.Component {
             <br/>
             {!this.state.topentertainment ? <button className="info" onClick={this.topentertainmentSwitch}>More Info</button> : <p>TOPentertainment is a music industry site for mentoring bands. Built with React, it features an extensive subnavigation menu.</p>}
              <br/>
-             <span><a href="https://topentertainment.rocks/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/topent" target="_parent">Github - Frontend</a></span>
+             <span><a href="https://zealous-borg-441d98.netlify.app/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/topent" target="_parent">Github - Frontend</a></span>
           </div>
         </div>
 
@@ -154,6 +160,21 @@ class Projects extends React.Component {
             {!this.state.plucky ? <button className="info" onClick={this.pluckySwitch}>More Info</button> : <p>P.Lucky is a musical artist. Built with React, it is a simple artist website.</p>}
              <br/>
              <span><a href="https://pluckyofficial.com/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/plucky" target="_parent">Github</a></span>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="project-details">
+            <h2>Rockmuser</h2>
+            <h4>Social Media App for Bands and Fans</h4>
+            <img className="demopics" src={rockmuser} />
+            <br/>
+            {!this.state.rockmuser ? <button className="info" onClick={this.rockmuserSwitch}>More Info</button> : <p>Rockmuser is a social media website for musicians and music fans built with React.js and Redux using a Rails
+             API. It features two different types of user accounts: One for bands/musicians and one for fans. Musician accounts can embed music videos on their
+             profile, while fan accounts can browse bands. Browsing is limited to only their own fans for bands and musicians to minimize bands spamming each other.
+             Users can log in using JavaScript Web Token for authentication and upload profile pictures with Active Storage.</p>}
+             <br/>
+             <span><a href="https://youtu.be/V27Ws13bHOs" target="_parent">Rockmuser - Video Demo</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/symfinity-website-frontend" target="_parent">Rockmuser - Github</a></span>
           </div>
         </div>
 

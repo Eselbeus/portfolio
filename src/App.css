@@ -315,6 +315,11 @@ span {
   right: 0%;
 }
 
+.projects-info {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 @media (max-width: 640px) and (min-resolution: 120dpi){
   .project {
     align-items: center;
