@@ -13,6 +13,7 @@ import newmuse from '../images/newmuse.png'
 import topent from '../images/topent.png'
 import plucky from '../images/plucky.png'
 import echomusings from '../images/Echomusings.png'
+import discotree from '../images/discotreedemo.png'
 import '../App.css'
 
 class Projects extends React.Component {
@@ -153,13 +154,13 @@ class Projects extends React.Component {
 
         <div className="project">
           <div className="project-details">
-            <h2>PLuckyofficial.com</h2>
+            <h2>Discotreeny.com</h2>
             <h4>React Frontend</h4>
-            <img className="demopics" src={plucky} />
+            <img className="demopics" src={discotree} />
             <br/>
-            {!this.state.plucky ? <button className="info" onClick={this.pluckySwitch}>More Info</button> : <p>P.Lucky is a musical artist. Built with React, it is a simple artist website.</p>}
+            {!this.state.plucky ? <button className="info" onClick={this.pluckySwitch}>More Info</button> : <p>NYC event site. Features react-scroll.</p>}
              <br/>
-             <span><a href="https://pluckyofficial.com/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/plucky" target="_parent">Github</a></span>
+             <span><a href="https://discotreeny.com/" target="_parent">Official Website</a>&nbsp;|&nbsp;<a href="https://github.com/Eselbeus/discotree" target="_parent">Github</a></span>
           </div>
         </div>
 
